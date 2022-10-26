@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <listeners>
+<listener class-name="extentReport.ExtentReporterNG"/>
+</listeners>
+ -->
+
+    <test name="Admin scenario_1">
+  
+            <classes>
+             <class name="scenario_1testcase.testcase"/>
+  			 <class name="scenario_1testcase.scenario2testcase"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
+

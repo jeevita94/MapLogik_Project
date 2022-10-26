@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Admin scenario_1(failed)">
+    <classes>
+      <class name="scenario_1testcase.testcase">
+        <methods>
+          <include name="validations"/>
+          <include name="setup"/>
+          <include name="collegelinkclicking"/>
+          <include name="delete"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- scenario_1testcase.testcase -->
+      <class name="scenario_1testcase.scenario2testcase">
+        <methods>
+          <include name="afterstudentmarksupdate"/>
+          <include name="adminupdatestudentmarks"/>
+          <include name="beforeupdatestudentmarks"/>
+        </methods>
+      </class> <!-- scenario_1testcase.scenario2testcase -->
+    </classes>
+  </test> <!-- Admin scenario_1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
