@@ -51,6 +51,7 @@ public class scenario2testcase extends Base_class{
 	@BeforeTest
 	public void report()
 	{
+		//comment added
 		extent = new ExtentReports();
 		 
 		spark = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/Maplogik_scenario2_ExtentReport.html");
